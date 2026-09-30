@@ -1,1 +1,8 @@
+ CREATE DATABASE mithun;
+USE mithun 
+  ALTER TABLE Student
+ADD COLUMN Email VARCHAR(30),
+ADD COLUMN PhoneNumber NUMERIC(10);
+
+DESC Student;
 
